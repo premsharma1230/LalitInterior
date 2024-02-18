@@ -1,8 +1,29 @@
 /******************************************
     Version: 1.0
 /****************************************** */
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+ 
+@media only screen and (max-width: 480px)  {
+	.slider-screen { 
+		height: 60vh; 
+	}
+	.main-banner {
+		height: 56%; 
+	}
+	.navbar-dark .navbar-brand {
+		width: 20%!important;
+	}
+}
+@media only screen and (max-width: 375px)  {
+	.navbar-dark .navbar-brand {
+		width: 31%!important;
+	}
+	#mainNav .navbar-brand img.img-fluid {
+		max-width: 70%!important;
+	}
+	.in-box {
+		margin-top: 4rem;
+	}
+}
 @media (min-width: 768px) and (max-width: 991px) {
 	#mainNav {
 		background-color: #ffffff;
