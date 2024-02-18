@@ -4,8 +4,10 @@ html{
     scroll-behavior: smooth;
 }
 
+/* #ee7908 */
+
 #mainNav .navbar-brand img.img-fluid{
-   max-width: 30%!important;
+   max-width: 18%!important;
 }
 @media screen and (max-width: 480px) {
     #mainNav .navbar-brand img.img-fluid {
